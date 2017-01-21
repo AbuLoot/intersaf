@@ -33,13 +33,24 @@
   /* Support for IE. */
   font-feature-settings: 'liga';
 }
-.material-icons.md-18 { font-size: 18px; }
-.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-18 {
+  position: relative;
+  top: 0.2em;
+  font-size: 18px;
+}
+.material-icons.md-24 {
+  position: relative;
+  top: 0.2em;
+  font-size: 24px;
+}
 .material-icons.md-36 { font-size: 36px; }
 .material-icons.md-48 { font-size: 48px; }
 
 body {
   font-family: 'Roboto Condensed', sans-serif;
+}
+.list-inline>li {
+  vertical-align: middle;
 }
 
 /* Header */
@@ -52,7 +63,7 @@ body {
   /*background-image: url(../img/bg/dreamstime_m_22214219-edit.jpg);*/
   /*background-image: url(../img/bg/UN-Building.jpg);*/
   /*background-image: url(../img/bg/4818368705_d8f96c0518_o.jpg);*/
-  background-image: url(../img/bg/books-magazines-building-school.jpg);
+  background-image: url(../img/courses/books-magazines-building-school.jpg);
   /*background-image: url(../img/bg/1-SxOosWP-ErhCdsnuhZMZwQ.jpeg);*/
   /*background-image: url(../img/bg/6706843-United_Nations_Headquarters_New_York_New_York_City.jpg);*/
   background-repeat: no-repeat;
@@ -63,7 +74,11 @@ body {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.4);
 }
-
+.dark-layer {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(26, 32, 38, 0.7);
+}
 /* Panel Contacts */
 .panel-contacts {
   color: #fff;
@@ -73,6 +88,8 @@ body {
 }
 .panel-home {
   margin: 15px 0;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 .panel-home > p {
   color: #fff;
@@ -83,12 +100,14 @@ body {
 .panel-phones {
   text-align: right;
   font-size: 15px;
-  margin-top: 23px;
+  margin-top: 20px;
 }
 .menu {
   margin: 30px auto;
   height: 70px;
-  background-color: #fff;
+  /*background-color: #fff;*/
+  /*background-color: #1b1919;*/
+  background-color: #263238;
   border-color: #080808;
   border-top-right-radius: 50px;
   border-top-left-radius: 50px;
@@ -105,6 +124,7 @@ body {
   float: left;
 }
 .logo-word {
+  color: #fff;
   margin-top: 25px;
   text-transform: uppercase;
 }

@@ -33,12 +33,23 @@
   /* Support for IE. */
   font-feature-settings: 'liga';
 }
-.material-icons.md-18 { font-size: 18px; }
-.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-18 {
+  position: relative;
+  top: 0.2em;
+  font-size: 18px;
+}
+.material-icons.md-24 {
+  position: relative;
+  top: 0.2em;
+  font-size: 24px;
+}
 .material-icons.md-36 { font-size: 36px; }
 .material-icons.md-48 { font-size: 48px; }
 body {
   font-family: 'Roboto Condensed', sans-serif;
+}
+.list-inline>li {
+  vertical-align: middle;
 }
 
 /* Header */
@@ -54,7 +65,8 @@ body {
   /*background-image: url(../img/bg/E116_New_York-United_Nations_Flags.jpg);*/
   /*background-image: url(../img/bg/translator.png);*/
   /*6706843-United_Nations_Headquarters_New_York_New_York_City*/
-  background-image: url(../img/bg/6706843-United_Nations_Headquarters_New_York_New_York_City.jpg);
+  background-image: url(../img/bg/desk-wallpaper-1600x900.jpg);
+  /*background-image: url(../img/bg/6706843-United_Nations_Headquarters_New_York_New_York_City.jpg);*/
   background-repeat: no-repeat;
   background-position: 70% 100%;
 }
@@ -63,27 +75,34 @@ body {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.4);
 }
+.dark-layer {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 1);
+
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.55);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.55);
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.55);
+}
 
 /* Panel Contacts */
 .panel-contacts {
-  color: #fff;
+  /*color: #fff;*/
   width: 100%;
   clear: both;
   display: table;
 }
 .panel-home {
   margin: 15px 0;
-}
-.panel-home > p {
-  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 .panel-home > p > a {
-  color: #fff;
+  /*color: #fff;*/
 }
 .panel-phones {
   text-align: right;
   font-size: 15px;
-  margin-top: 23px;
+  margin-top: 20px;
 }
 .menu {
   margin: 30px auto;
