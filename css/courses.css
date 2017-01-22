@@ -60,7 +60,6 @@ body {
 }
 .dark-layer {
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
   background-color: rgba(26, 32, 38, 0.7);
 }
 /* Panel Contacts */
@@ -188,6 +187,33 @@ body {
   text-align: right;
 }
 
+/* Fixed Call Button */
+.fixed-button {
+  position: fixed;
+  right: 5%;
+  bottom: 10%;
+  padding: 15px;
+  border-color: #080808;
+  border-radius: 50%;
+  /*border-top-right-radius: 50px;*/
+  /*border-top-left-radius: 50px;*/
+  /*border-bottom-right-radius: 50px;*/
+  /*border-bottom-left-radius: 50px;*/
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(58, 74, 104, 0.55);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(58, 74, 104, 0.55);
+  box-shadow: 0px 0px 15px 0px rgba(58, 74, 104, 0.55);
+  background-color: rgba(26, 32, 38, 0.9);
+}
+.fixed-button > a {
+  color: #fff;
+  display: block;
+  width: 100;
+  height: 100%;
+}
+.fixed-button > a > i {
+  /*position: relative;*/
+  /*top: 0.1em;*/
+}
 
 /* Footer */
 .footer {
