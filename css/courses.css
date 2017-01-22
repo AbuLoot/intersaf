@@ -1,14 +1,4 @@
-@font-face {
-  font-family: 'Material Icons';
-  font-style: normal;
-  font-weight: 400;
-  src: url(../iconfont/MaterialIcons-Regular.eot); /* For IE6-8 */
-  src: local('Material Icons'),
-       local('MaterialIcons-Regular'),
-       url(../iconfont/MaterialIcons-Regular.woff2) format('woff2'),
-       url(../iconfont/MaterialIcons-Regular.woff) format('woff'),
-       url(../iconfont/MaterialIcons-Regular.ttf) format('truetype');
-}
+
 .material-icons {
   font-family: 'Material Icons';
   font-weight: normal;
@@ -45,6 +35,7 @@
 }
 .material-icons.md-36 { font-size: 36px; }
 .material-icons.md-48 { font-size: 48px; }
+.color-brand { color: #4269f8; }
 
 body {
   font-family: 'Roboto Condensed', sans-serif;
@@ -58,14 +49,7 @@ body {
   position: relative;
   height: 600px;
   background-color: #333;
-  /*background-image: url(../img/bg/tumblr_static_etat6yihd80soc0ows04k80w4.jpg);*/
-  /*background-image: url(../img/bg/www.GetBg.net_Creative_Wallpaper_Tattered_pages_of_a_book_098541_.jpg);*/
-  /*background-image: url(../img/bg/dreamstime_m_22214219-edit.jpg);*/
-  /*background-image: url(../img/bg/UN-Building.jpg);*/
-  /*background-image: url(../img/bg/4818368705_d8f96c0518_o.jpg);*/
   background-image: url(../img/courses/books-magazines-building-school.jpg);
-  /*background-image: url(../img/bg/1-SxOosWP-ErhCdsnuhZMZwQ.jpeg);*/
-  /*background-image: url(../img/bg/6706843-United_Nations_Headquarters_New_York_New_York_City.jpg);*/
   background-repeat: no-repeat;
   background-position: center bottom;
 }
@@ -180,17 +164,20 @@ body {
 
 /* Programms */
 .programms > div {
-  position: relative;
 }
 .programm {
   color: #fff;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+  position: relative;
+  /*bottom: 0;*/
+  /*width: 100%;*/
   padding: 30px;
   cursor: pointer;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: #263238;
 }
+.collapse {
+  padding: 20px 45px;
+}
+
 
 /* Price */
 .price {
@@ -199,47 +186,6 @@ body {
 .table-price > thead > tr > td:not(:nth-child(1)),
 .table-price > tbody > tr > td:not(:nth-child(1)) {
   text-align: right;
-}
-
-/* Send Form */
-.send-form {
-  height: 600px;
-  /*background-image: url(../img/bg/calc.jpg);*/
-  /*background-position: center bottom;*/
-}
-.send-form > div:first-child {
-  height: 100%;
-  background-image: url(../img/bg/calc.jpg);
-  background-position: center bottom;
-}
-.send-form > div:nth-child(2) {
-  height: 100%;
-  padding: 50px 0;
-  background-color: #CFD8DC;
-}
-.send-form .file {
-  margin-left: 16px;
-}
-
-.form-cover {
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 9);
-}
-.send-form label {
-  margin-left: 16px;
-}
-.send-form .input-lg {
-  border-radius: 26px;
-}
-.send-form .btn-bordered {
-  border-radius: 26px;
-  text-align: center;
-}
-.calc-title {
-  /*margin: 0 -120px;*/
-  /*font-size: 44px;*/
-  /*color: #426AF8;*/
 }
 
 

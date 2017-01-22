@@ -1,14 +1,4 @@
-@font-face {
-  font-family: 'Material Icons';
-  font-style: normal;
-  font-weight: 400;
-  src: url(../iconfont/MaterialIcons-Regular.eot); /* For IE6-8 */
-  src: local('Material Icons'),
-       local('MaterialIcons-Regular'),
-       url(../iconfont/MaterialIcons-Regular.woff2) format('woff2'),
-       url(../iconfont/MaterialIcons-Regular.woff) format('woff'),
-       url(../iconfont/MaterialIcons-Regular.ttf) format('truetype');
-}
+
 .material-icons {
   font-family: 'Material Icons';
   font-weight: normal;
@@ -45,6 +35,8 @@
 }
 .material-icons.md-36 { font-size: 36px; }
 .material-icons.md-48 { font-size: 48px; }
+.color-brand { color: #4269f8; }
+
 body {
   font-family: 'Roboto Condensed', sans-serif;
 }
@@ -219,6 +211,9 @@ body {
 /* Price */
 .price {
   padding: 50px 0;
+}
+.bg-head {
+  background-color: #e6ecfe;
 }
 .table-price > thead > tr > td:not(:nth-child(1)),
 .table-price > tbody > tr > td:not(:nth-child(1)) {

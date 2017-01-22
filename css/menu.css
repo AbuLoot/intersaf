@@ -1,3 +1,41 @@
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+.material-icons.md-18 {
+  position: relative;
+  top: 0.2em;
+  font-size: 18px;
+}
+.material-icons.md-24 {
+  position: relative;
+  top: 0.2em;
+  font-size: 24px;
+}
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
 body {
   font-family: 'Roboto Condensed', sans-serif;
 }
@@ -41,7 +79,7 @@ body {
 }
 .logo-word {
   /*color: #757575;*/
-  margin-top: 25px;
+  margin-top: 16px;
   text-transform: uppercase;
 }
 .header-phones {
@@ -119,6 +157,7 @@ body {
 
 /* Footer */
 .footer {
-  height: 400px;
+  color: #fff;
+  padding: 50px 0;
   background-color: #263238;
 }

@@ -54,12 +54,10 @@
             </div>
             <div class="col-md-8">
               <ul class="menu-list list-inline">
-                <li><a href="#">Главная</a></li>
-                <li><a href="#">Услуги</a></li>
-                <li><a href="#">Цены</a></li>
-                <!-- <li><a href="#">Статьи</a></li> -->
-                <li><a href="#">Вакансии</a></li>
-                <li><a href="#">Контакты</a></li>
+                <li><a class="scrollto" href="#about">О InterSaf</a></li>
+                <li><a class="scrollto" href="#programms">Программы</a></li>
+                <li><a class="scrollto" href="#shares">Скидки</a></li>
+                <li><a class="scrollto" href="#contacts">Контакты</a></li>
                 <li><div class="delimiter"></div></li>
                 <li><img src="img/png/google-plus.png"></li>
                 <li><img src="img/png/twitter.png"></li>
@@ -80,22 +78,22 @@
     </header>
 
     <!-- About -->
-    <div class="container about">
+    <div class="container about" id="about">
       <p class="h1 text-center text-uppercase">О InterSaf</p>
       <p class="h3">Выгоды, которые Вы получите в нашем образовательном центре:</p><br>
       <div class="row">
         <div class="col-md-4">
-          <div><i class="material-icons md-48">translate</i></div>
+          <div><i class="material-icons color-brand md-48">weekend</i></div>
           <p class="about-header">Конечная остановка попыток</p>
           <p class="about-description">Языковые курсы «InterSaf» - это конечная остановка Ваших попыток выучить английский язык.</p>
         </div>
         <div class="col-md-4">
-          <div><i class="material-icons md-48">school</i></div>
+          <div><i class="material-icons color-brand md-48">fitness_center</i></div>
           <p class="about-header">Систематизированное обучение</p>
           <p class="about-description">Широкий спектр программ для всего возраста и уровня</p>
         </div>
         <div class="col-md-4">
-          <div><i class="material-icons md-48">high_quality</i></div>
+          <div><i class="material-icons color-brand md-48">hourglass_empty</i></div>
           <p class="about-header">Гибкая ценовая политика</p>
           <p class="about-description">Вам предоставим удобный график и гибкую ценовую политику со скидками</p>
         </div>
@@ -103,17 +101,17 @@
 
       <div class="row">
         <div class="col-md-4">
-          <div><i class="material-icons md-48">event</i></div>
+          <div><i class="material-icons color-brand md-48">people_outline</i></div>
           <p class="about-header">Профессиональная команда</p>
           <p class="about-description">Развитие основных четырех навык в интересных и разнообразных занятиях </p>
         </div>
         <div class="col-md-4">
-          <div><i class="material-icons md-48">chat_bubble_outline</i></div>
+          <div><i class="material-icons color-brand md-48">card_giftcard</i></div>
           <p class="about-header">Пробное бесплатное занятие</p>
           <p class="about-description"></p>
         </div>
         <div class="col-md-4">
-          <div><i class="material-icons md-48">playlist_add_check</i></div>
+          <div><i class="material-icons color-brand md-48">school</i></div>
           <p class="about-header">Оксфордская методика обучения</p>
           <p class="about-description">Лучшие стороны традиционной и не традиционной методики обучения</p>
         </div>
@@ -121,17 +119,17 @@
 
       <div class="row">
         <div class="col-md-4">
-          <div><i class="material-icons md-48">access_time</i></div>
+          <div><i class="material-icons color-brand md-48">language</i></div>
           <p class="about-header">Занятия на английском </p>
           <p class="about-description">Занятия только на английском языке</p>
         </div>
         <div class="col-md-4">
-          <div><i class="material-icons md-48">security</i></div>
+          <div><i class="material-icons color-brand md-48">recent_actors</i></div>
           <p class="about-header">Группы по возрастным категориям</p>
           <p class="about-description">Собираем группу по возрастным категориям </p>
         </div>
         <div class="col-md-4">
-          <div><i class="material-icons md-48">palette</i></div>
+          <div><i class="material-icons color-brand md-48">event</i></div>
           <p class="about-header">Бесплатный English Club раз в неделю </p>
           <p class="about-description"></p>
         </div>
@@ -141,136 +139,119 @@
     <!-- Course programms -->
     <div class="programms container" id="programms">
       <p class="h1 text-center text-uppercase">Самые популярные программы английского языка<br> в нашей школе</p>
+      <br><br>
       <div class="col-md-6">
-        <div class="row">
-          <img src="img/courses/bg1.jpg" class="img-responsive">
-          <div class="programm text-right" id="programm1">
-            <p class="h3">General English</p>
-            <p class="h4">Самое популярная и востребованная программа обучения Для людей, которые хотят идти в ногу со временем</p>
-          </div>
+        <img src="img/courses/bg1.jpg" class="img-responsive">
+        <div class="programm text-right" id="programm1">
+          <p class="h3"><ins>General English</ins></p>
+          <p class="h4">Самое популярная и востребованная программа обучения Для людей, которые хотят идти в ногу со временем</p>
         </div>
       </div>
       <div class="col-md-6">
-        <div class="row">
-          <img src="img/courses/bg2.jpg" class="img-responsive">
-          <div class="programm" id="programm2">
-            <p class="h3">Интенсивный английский</p>
-            <p class="h4">Уникальная возможность овладеть языком за 4 недели.<br><br></p>
-          </div>
+        <img src="img/courses/bg2.jpg" class="img-responsive">
+        <div class="programm" id="programm2">
+          <p class="h3"><ins>Интенсивный английский</ins></p>
+          <p class="h4">Уникальная возможность овладеть языком за 4 недели.<br><br></p>
         </div>
       </div>
 
       <div class="col-md-12 collapse" id="collapse1">
-        <div class="">
-          <p class="h3">General English</p>
-          <p>Самое популярная и востребованная программа обучения Для людей, которые хотят идти в ногу со временем Предназначен для овладения или усовершенствования английского языка Охватывает все языковые аспекты</p>
-          <p class="h4">Стоимость обучения за месяц</p>
-          <div class="table-responsive">
-            <table class="table table-price table-bordered table-striped">
-              <thead>
-                <tr>
-                  <td>Вид занятий</td>
-                  <td>2*90 мин 8 уроков</td>
-                  <td>3*90 мин 12 уроков</td>
-                  <td>2*60 мин 8 уроков</td>
-                  <td>3*60 мин 12 уроков</td>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Индивидуально</td>
-                  <td>20 000 тг</td>
-                  <td>24 000 тг</td>
-                  <td>18 000 тг</td>
-                  <td>22 000 тг</td>
-                </tr>
-                <tr>
-                  <td>Группа (5-6 человек)</td>
-                  <td>14 000 тг</td>
-                  <td>18 000 тг</td>
-                  <td>12 000 тг</td>
-                  <td>16 000 тг</td>
-                </tr>
-                <tr>
-                  <td>Мини-группа (2-4 человека)</td>
-                  <td>16 000 тг</td>
-                  <td>20 000 тг</td>
-                  <td>14 000 тг</td>
-                  <td>18 000 тг</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+        <p class="h3">General English</p>
+        <p>Самое популярная и востребованная программа обучения Для людей, которые хотят идти в ногу со временем Предназначен для овладения или усовершенствования английского языка Охватывает все языковые аспекты</p>
+        <p class="h4">Стоимость обучения за месяц</p>
+        <div class="table-responsive">
+          <table class="table table-price table-bordered table-striped">
+            <thead>
+              <tr>
+                <td>Вид занятий</td>
+                <td>2*90 мин 8 уроков</td>
+                <td>3*90 мин 12 уроков</td>
+                <td>2*60 мин 8 уроков</td>
+                <td>3*60 мин 12 уроков</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Индивидуально</td>
+                <td>20 000 тг</td>
+                <td>24 000 тг</td>
+                <td>18 000 тг</td>
+                <td>22 000 тг</td>
+              </tr>
+              <tr>
+                <td>Группа (5-6 человек)</td>
+                <td>14 000 тг</td>
+                <td>18 000 тг</td>
+                <td>12 000 тг</td>
+                <td>16 000 тг</td>
+              </tr>
+              <tr>
+                <td>Мини-группа (2-4 человека)</td>
+                <td>16 000 тг</td>
+                <td>20 000 тг</td>
+                <td>14 000 тг</td>
+                <td>18 000 тг</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
 
       <div class="col-md-12 collapse" id="collapse2">
-        <div class="">
-          <p class="h3">Интенсивный английский</p>
-          <p>Уникальная возможность овладеть языком за 4 недели.</p>
-          <p>Ежедневное двухчасовое занятие </p>
-          <p>Мини группа из 2-4 человек</p>
-          <p>Самое эффективное усвоение языком</p>
-          <div class="table-responsive">
-            <table class="table table-price table-bordered table-striped">
-              <thead>
-                <tr>
-                  <td>Вид занятий</td>
-                  <td>120 мин 12 уроков в месяц</td>
-                  <td>120 мин 16 уроков в месяц</td>
-                  <td>120 мин 20 уроков в месяц</td>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Индивидуально</td>
-                  <td>48 000 тг </td>
-                  <td>64 000 тг </td>
-                  <td>80 000 тг </td>
-                </tr>
-                <tr>
-                  <td>Группа (5-6 человек)</td>
-                  <td>30 000 тг </td>
-                  <td>40 000 тг </td>
-                  <td>50 000 тг </td>
-                </tr>
-                <tr>
-                  <td>Мини-группа (2-4 человека)</td>
-                  <td>42 000 тг </td>
-                  <td>48 000 тг </td>
-                  <td>60 000 тг </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+        <p class="h3">Интенсивный английский</p>
+        <p>Уникальная возможность овладеть языком за 4 недели.</p>
+        <p>Ежедневное двухчасовое занятие </p>
+        <p>Мини группа из 2-4 человек</p>
+        <p>Самое эффективное усвоение языком</p>
+        <div class="table-responsive">
+          <table class="table table-price table-bordered table-striped">
+            <thead>
+              <tr>
+                <td>Вид занятий</td>
+                <td>120 мин 12 уроков в месяц</td>
+                <td>120 мин 16 уроков в месяц</td>
+                <td>120 мин 20 уроков в месяц</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Индивидуально</td>
+                <td>48 000 тг </td>
+                <td>64 000 тг </td>
+                <td>80 000 тг </td>
+              </tr>
+              <tr>
+                <td>Группа (5-6 человек)</td>
+                <td>30 000 тг </td>
+                <td>40 000 тг </td>
+                <td>50 000 тг </td>
+              </tr>
+              <tr>
+                <td>Мини-группа (2-4 человека)</td>
+                <td>42 000 тг </td>
+                <td>48 000 тг </td>
+                <td>60 000 тг </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
 
-      <!-- <div class="col-md-6">
-        <div class="row">
-          <img src="img/courses/bg3.jpg" class="img-responsive">
-          <div class="programm text-right" id="programm3">
-            <p class="h3">IELTS/TOEFL</p>
-            <p class="h4">Подготовка к самым популярным международным экзаменам.<br><br></p>
-          </div>
-        </div> 
-      </div> -->
+      <div class="clearfix"></div>
+      <br><br>
+
       <div class="col-md-6">
-        <div class="row">
-          <img src="img/courses/bg3.jpg" class="img-responsive">
-          <div class="programm text-right" id="programm3">
-            <p class="h3">IELTS/TOEFL</p>
-            <p class="h4">Подготовка к самым популярным международным экзаменам.</p>
-          </div>
+        <img src="img/courses/bg3.jpg" class="img-responsive">
+        <div class="programm text-right" id="programm3">
+          <p class="h3"><ins>IELTS/TOEFL</ins></p>
+          <p class="h4">Подготовка к самым популярным международным экзаменам.</p>
         </div>
       </div>
       <div class="col-md-6">
-        <div class="row">
-          <img src="img/courses/bg4.jpg" class="img-responsive">
-          <div class="programm" id="programm4">
-            <p class="h3">Подготовка к вступительным экзаменам</p>
-            <p class="h4">(магистратура, докторантура, ЕНТ, КТА)</p>
-          </div>
+        <img src="img/courses/bg4.jpg" class="img-responsive">
+        <div class="programm" id="programm4">
+          <p class="h3"><ins>Подготовка к вступительным экзаменам</ins></p>
+          <p class="h4">(магистратура, докторантура, ЕНТ, КТА)</p>
         </div>
       </div>
 
@@ -364,40 +345,8 @@
       </div>
     </div>
 
-    <!-- Send Form -->
-    <div class="send-form container">
-      <div class="col-md-6"></div>
-      <div class="col-md-6">
-        <div class="col-md-offset-1 col-md-8">
-          <p class="h3 text-uppercase calc-title">Получите бесплатный расчет стоимости за 9 минут</p><br>
-        </div>
-        <div class="col-md-offset-1 col-md-8">
-          <form action="/" method="POST">
-            <div class="form-group">
-              <label for="name">Имя:</label>
-              <input type="text" class="form-control input-lg" id="name" placeholder="Введите имя" minlength="2" maxlength="80" required>
-            </div>
-            <div class="form-group">
-              <label for="email">Email:</label>
-              <input type="email" class="form-control input-lg" id="email" placeholder="Введите Email" minlength="5" maxlength="80" required>
-            </div>
-            <div class="form-group">
-              <label for="phone">Телефон:</label>
-              <input type="text" class="form-control input-lg" id="phone" placeholder="Введите номер телефона" minlength="5" maxlength="80" required>
-            </div>
-            <div class="form-group">
-              <label for="file">Выберите файл</label>
-              <input type="file" id="file" class="file" required>
-              <!-- <p class="help-block">Example block-level help text here.</p> -->
-            </div>
-            <button type="submit" class="btn btn-default btn-lg btn-bordered">Отправить</button>
-          </form>
-        </div>
-      </div>
-    </div>
-
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer" id="contacts">
       <div class="container">
         <div class="col-md-3">
           <p class="h3">Контакты</p>
@@ -451,6 +400,15 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('a.scrollto').click(function(){
+          var el = $(this).attr('href');
+          $('body').animate({scrollTop: $(el).offset().top}, 1000);
+          return false;
+        });
+      });
+    </script>
     <script>
       $( "#programm1" ).click(function() {
         $('.collapse').not("#collapse1").hide();
