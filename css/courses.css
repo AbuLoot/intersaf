@@ -187,6 +187,27 @@ body {
   text-align: right;
 }
 
+/* Discounts */
+.discounts {
+  padding: 50px 0;
+}
+.discounts > p.h1 {
+  padding-bottom: 15px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.discount {
+  text-align: center;
+  font-size: 25px;
+  min-height: 400px;
+  padding: 50px 15px;
+  border: 4px solid #263238;
+}
+.discount > .per {
+  color: #4269f8;
+  font-size: 100px;
+}
+
 /* Fixed Call Button */
 .fixed-button {
   position: fixed;

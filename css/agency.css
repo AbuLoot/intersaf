@@ -49,16 +49,7 @@ body {
   position: relative;
   height: 600px;
   background-color: #333;
-  /*background-image: url(../img/bg/tumblr_static_etat6yihd80soc0ows04k80w4.jpg);*/
-  /*background-image: url(../img/bg/www.GetBg.net_Creative_Wallpaper_Tattered_pages_of_a_book_098541_.jpg);*/
-  /*background-image: url(../img/bg/dreamstime_m_22214219-edit.jpg);*/
-  /*background-image: url(../img/bg/UN-Building.jpg);*/
-  /*background-image: url(../img/bg/4818368705_d8f96c0518_o.jpg);*/
-  /*background-image: url(../img/bg/E116_New_York-United_Nations_Flags.jpg);*/
-  /*background-image: url(../img/bg/translator.png);*/
-  /*6706843-United_Nations_Headquarters_New_York_New_York_City*/
   background-image: url(../img/bg/desk-wallpaper-1600x900.jpg);
-  /*background-image: url(../img/bg/6706843-United_Nations_Headquarters_New_York_New_York_City.jpg);*/
   background-repeat: no-repeat;
   background-position: 70% 100%;
 }
