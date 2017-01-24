@@ -1,4 +1,7 @@
-
+body {
+  font-size: 15px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
 .material-icons {
   font-family: 'Material Icons';
   font-weight: normal;
@@ -36,9 +39,7 @@
 }
 .material-icons.md-36 { font-size: 36px; }
 .material-icons.md-48 { font-size: 48px; }
-body {
-  font-family: 'Roboto Condensed', sans-serif;
-}
+
 .header {
   position: relative;
   height: 800px;
@@ -52,9 +53,10 @@ body {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.4);
 }
+
 .menu {
   margin: 30px auto;
-  height: 70px;
+  min-height: 70px;
   background-color: #fff;
   border-color: #080808;
   border-top-right-radius: 50px;
@@ -65,6 +67,12 @@ body {
   -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.55);
   box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.55);
   /*opacity: 0.9;*/
+}
+/* Media */
+@media (min-width: 768px) {
+  .menu {
+    /*min-width: */
+  }
 }
 .logo {
   height: 60px;
@@ -155,4 +163,18 @@ body {
   color: #fff;
   padding: 50px 0;
   background-color: #263238;
+}
+.send-app-footer .form-control {
+  color: #fff;
+  background-color: #263238;
+  border-color: #2196F3;
+}
+.btn-app {
+  color: #fff;
+  background-color: #263238;
+  border-color: #2196F3;
+}
+.btn-app:focus,
+.btn-app:hover {
+  color: #fff;
 }

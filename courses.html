@@ -136,27 +136,37 @@
       </div>
     </div>
 
+    <!-- Send App -->
+    <div class="send-app" id="send-app">
+      <div class="container">
+        <p class="h1">Записатся на пробное занятие</p>
+        <div class="col-md-offset-4 col-md-4 send-app-paper">
+          <form action="/" method="post">
+            <div class="form-group">
+              <label for="name">Имя:</label>
+              <input type="text" class="form-control input-lg" id="name" placeholder="Введите имя" minlength="2" maxlength="40" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Номер телефона:</label>
+              <input type="number" class="form-control input-lg" id="phone" placeholder="Введите номер телефона" minlength="5" maxlength="20" required>
+            </div>
+            <button type="submit" class="btn btn-default btn-lg">Записатся</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
     <!-- Course programms -->
     <div class="programms container" id="programms">
       <p class="h1 text-center text-uppercase">Самые популярные программы английского языка<br> в нашей школе</p>
       <br><br>
-      <div class="row">
-        <div class="col-md-6">
-          <img src="img/courses/bg1.jpg" class="img-responsive">
-          <div class="programm text-right" id="programm1">
-            <p class="h3"><ins>General English</ins></p>
-            <p class="h4">Самое популярная и востребованная программа обучения Для людей, которые хотят идти в ногу со временем</p>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <img src="img/courses/bg2.jpg" class="img-responsive">
-          <div class="programm" id="programm2">
-            <p class="h3"><ins>Интенсивный английский</ins></p>
-            <p class="h4">Уникальная возможность овладеть языком за 4 недели.<br><br></p>
-          </div>
+      <div class="col-md-6">
+        <img src="img/courses/bg1.jpg" class="img-responsive">
+        <div class="programm text-right" id="programm1">
+          <p class="h3"><ins>General English</ins></p>
+          <p class="h4">Самое популярная и востребованная программа обучения Для людей, которые хотят идти в ногу со временем</p>
         </div>
       </div>
-
       <div class="col-md-12 collapse" id="collapse1">
         <p class="h3">General English</p>
         <p>Самое популярная и востребованная программа обучения Для людей, которые хотят идти в ногу со временем Предназначен для овладения или усовершенствования английского языка Охватывает все языковые аспекты</p>
@@ -196,6 +206,14 @@
               </tr>
             </tbody>
           </table>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <img src="img/courses/bg2.jpg" class="img-responsive">
+        <div class="programm" id="programm2">
+          <p class="h3"><ins>Интенсивный английский</ins></p>
+          <p class="h4">Уникальная возможность овладеть языком за 4 недели.<br><br></p>
         </div>
       </div>
 
@@ -242,20 +260,18 @@
       <div class="clearfix"></div>
       <br><br>
 
-      <div class="row">
-        <div class="col-md-6">
-          <img src="img/courses/bg3.jpg" class="img-responsive">
-          <div class="programm text-right" id="programm3">
-            <p class="h3"><ins>IELTS/TOEFL</ins></p>
-            <p class="h4">Подготовка к самым популярным международным экзаменам.</p>
-          </div>
+      <div class="col-md-6">
+        <img src="img/courses/bg3.jpg" class="img-responsive">
+        <div class="programm text-right" id="programm3">
+          <p class="h3"><ins>IELTS/TOEFL</ins></p>
+          <p class="h4">Подготовка к самым популярным международным экзаменам.</p>
         </div>
-        <div class="col-md-6">
-          <img src="img/courses/bg4.jpg" class="img-responsive">
-          <div class="programm" id="programm4">
-            <p class="h3"><ins>Подготовка к вступительным экзаменам</ins></p>
-            <p class="h4">(магистратура, докторантура, ЕНТ, КТА)</p>
-          </div>
+      </div>
+      <div class="col-md-6">
+        <img src="img/courses/bg4.jpg" class="img-responsive">
+        <div class="programm" id="programm4">
+          <p class="h3"><ins>Подготовка к вступительным экзаменам</ins></p>
+          <p class="h4">(магистратура, докторантура, ЕНТ, КТА)</p>
         </div>
       </div>
 
@@ -380,25 +396,30 @@
 
     <!-- Fixed Call Button -->
     <div class="fixed-button">
-      <a href="#" data-toggle="modal" data-target="#myModal">
+      <a href="#" data-toggle="modal" data-target=".modal-form-app">
         <i class="material-icons md-36">phone_iphone</i>
       </a>
     </div>
 
-    <!-- Modal -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal fade modal-form-app" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+            <h3 class="modal-title" id="myModalLabel">Записатся на пробное занятие</h3>
           </div>
           <div class="modal-body">
-            ...
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <form action="/" method="post">
+              <div class="form-group">
+                <label for="name">Имя:</label>
+                <input type="text" class="form-control input-lg" id="name" placeholder="Введите имя" minlength="2" maxlength="40" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">Номер телефона:</label>
+                <input type="number" class="form-control input-lg" id="phone" placeholder="Введите номер телефона" minlength="5" maxlength="20" required>
+              </div>
+              <button type="submit" class="btn btn-default btn-lg">Записатся</button>
+            </form>
           </div>
         </div>
       </div>
@@ -430,6 +451,10 @@
           <p class="h3">Прием заказов:</p>
           <p>В офисе с 9:00 - 18:00<br> (Понедельник-суббота)</p>
           <p>Онлайн на сайте круглосуточно<br> без выходных</p>
+        </div>
+        <div class="col-md-3">
+          <p class="h3">Оставьте заявку</p>
+          <a class="btn btn-calc scrollto" href="#send-app"><i class="material-icons md-18">keyboard_arrow_up</i> Отправить и расчитать</a>
         </div>
       </div>
     </footer>

@@ -1,4 +1,7 @@
-
+body {
+  font-size: 15px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
 .material-icons {
   font-family: 'Material Icons';
   font-weight: normal;
@@ -35,14 +38,9 @@
 }
 .material-icons.md-36 { font-size: 36px; }
 .material-icons.md-48 { font-size: 48px; }
-.color-brand { color: #4269f8; }
 
-body {
-  font-family: 'Roboto Condensed', sans-serif;
-}
-.list-inline>li {
-  vertical-align: middle;
-}
+.color-brand { color: #4269f8; }
+.list-inline > li { vertical-align: middle; }
 
 /* Header */
 .header {
@@ -160,9 +158,35 @@ body {
   font-size: 15px;
 }
 
+/* Send App */
+.send-app {
+  padding: 50px 0;
+}
+.send-app > div > p.h1 {
+  text-align: center;
+  padding-bottom: 25px;
+}
+.send-app .btn,
+.send-app .input-lg,
+.modal-form-app .btn,
+.modal-form-app .input-lg {
+  border-radius: 0;
+}
+.modal-content {
+  padding: 50px;
+  border-radius: 0;
+}
+.send-app-paper {
+  padding: 50px;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(58, 74, 104, 0.55);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(58, 74, 104, 0.55);
+  box-shadow: 0px 0px 15px 0px rgba(58, 74, 104, 0.55);
+}
+
 
 /* Programms */
-.programms > div {
+.programms {
+  padding: 50px 0;
 }
 .programm {
   color: #fff;
@@ -216,14 +240,10 @@ body {
   padding: 15px;
   border-color: #080808;
   border-radius: 50%;
-  /*border-top-right-radius: 50px;*/
-  /*border-top-left-radius: 50px;*/
-  /*border-bottom-right-radius: 50px;*/
-  /*border-bottom-left-radius: 50px;*/
   -webkit-box-shadow: 0px 0px 15px 0px rgba(58, 74, 104, 0.55);
   -moz-box-shadow: 0px 0px 15px 0px rgba(58, 74, 104, 0.55);
   box-shadow: 0px 0px 15px 0px rgba(58, 74, 104, 0.55);
-  background-color: rgba(26, 32, 38, 0.9);
+  background-color: #009688;
 }
 .fixed-button > a {
   color: #fff;
@@ -231,14 +251,20 @@ body {
   width: 100;
   height: 100%;
 }
-.fixed-button > a > i {
-  /*position: relative;*/
-  /*top: 0.1em;*/
-}
 
 /* Footer */
 .footer {
   color: #fff;
   padding: 50px 0;
   background-color: #263238;
+}
+.btn-calc {
+  color: #fff;
+  border-radius: 0;
+  background-color: #263238;
+  border-color: #fff;
+}
+.btn-calc:focus,
+.btn-calc:hover {
+  color: #fff;
 }

@@ -1,4 +1,7 @@
-
+body {
+  font-size: 15px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
 .material-icons {
   font-family: 'Material Icons';
   font-weight: normal;
@@ -35,14 +38,9 @@
 }
 .material-icons.md-36 { font-size: 36px; }
 .material-icons.md-48 { font-size: 48px; }
-.color-brand { color: #4269f8; }
 
-body {
-  font-family: 'Roboto Condensed', sans-serif;
-}
-.list-inline>li {
-  vertical-align: middle;
-}
+.color-brand { color: #4269f8; }
+.list-inline > li { vertical-align: middle; }
 
 /* Header */
 .header {
@@ -56,7 +54,7 @@ body {
 .header-cover {
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 .dark-layer {
   width: 100%;
@@ -164,8 +162,6 @@ body {
   padding: 50px 0;
   position: relative;
   background-color: #426AF8;
-  /*background-image: url(../img/bg/translator.png);*/
-  /*background-position: bottom right;*/
 }
 .services > div > .h1 {
   color: #fff;
@@ -214,8 +210,6 @@ body {
 /* Send Form */
 .send-form {
   height: 600px;
-  /*background-image: url(../img/bg/calc.jpg);*/
-  /*background-position: center bottom;*/
 }
 .send-form > div:first-child {
   height: 100%;
@@ -230,15 +224,17 @@ body {
 .send-form .file {
   margin-left: 16px;
 }
-
 .form-cover {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 9);
 }
-.send-form label {
+.send-form label,
+.modal-body label {
   margin-left: 16px;
 }
+.modal-body .input-lg,
+.modal-body .btn,
 .send-form .input-lg {
   border-radius: 26px;
 }
@@ -290,9 +286,47 @@ body {
   text-transform: uppercase;
 }
 
+/* Fixed Call Button */
+.fixed-button {
+  position: fixed;
+  right: 5%;
+  bottom: 10%;
+  padding: 15px;
+  border-color: #080808;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(58, 74, 104, 0.55);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(58, 74, 104, 0.55);
+  box-shadow: 0px 0px 15px 0px rgba(58, 74, 104, 0.55);
+  background-color: #4269f8;
+}
+.fixed-button > a {
+  color: #fff;
+  width: 100;
+  height: 100%;
+  display: block;
+}
+.modal-content {
+  padding: 50px;
+  border-radius: 0;
+
+}
+
 /* Footer */
 .footer {
   color: #fff;
   padding: 50px 0;
   background-color: #263238;
+}
+.btn-calc {
+  /*color: #426AF8;*/
+  color: #fff;
+  border-radius: 26px;
+  background-color: #263238;
+  /*border-color: #426AF8;*/
+  border-color: #fff;
+}
+.btn-calc:focus,
+.btn-calc:hover {
+  /*color: #426AF8;*/
+  color: #fff;
 }
