@@ -68,12 +68,6 @@ body {
   box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.55);
   /*opacity: 0.9;*/
 }
-/* Media */
-@media (min-width: 768px) {
-  .menu {
-    /*min-width: */
-  }
-}
 .logo {
   height: 60px;
   margin-top: 5px;
@@ -97,9 +91,20 @@ body {
   height: 40px;
   background-color: #999;
 }
-.time {
-  font-size: 60px;
+
+/* Mobile Menu */
+@media (max-width: 767px) {
+  .menu { padding: 5px; }
+  .logo { float: none; }
+  /*.logo-word { text-align: right;  }*/
+  .delimiter { display: none; }
+  .start-soc-icons { width: 100%; }
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  .menu { padding: 5px; }
+  .delimiter { display: none; }
+}
+
 .header-marketing {
   color: #fff;
   margin: 150px 50px 100px;
@@ -108,7 +113,6 @@ body {
 }
 .header-marketing h1 {
   font-size: 60px;
-  /*font-weight: bold;*/
 }
 .header-second {
   /*font-size: 50px;*/
@@ -118,6 +122,7 @@ body {
   text-align: center;
   font-size: 30px;
 }
+
 .courses {
   float: right;
 }
@@ -157,6 +162,20 @@ body {
   -moz-box-shadow: 0px 0px 5px 0px rgba(0,150,136,0.75);
   box-shadow: 0px 0px 5px 0px rgba(0,150,136,0.75);
 }
+
+/* Mobile Header */
+@media (max-width: 767px) {
+  .header-marketing { margin: 50px 5px 25px; }
+  .header-marketing h1 { font-size: 30px; }
+  .btn-services { padding: 20px 0; }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .header-marketing { margin: 50px; }
+  .header-marketing h1 { font-size: 50px; }
+  .call-to-action { font-size: 20px; }
+  .btn-services { padding: 20px 0; }
+}
+
 
 /* Footer */
 .footer {

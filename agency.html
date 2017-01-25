@@ -7,11 +7,11 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <!-- <link rel="icon" href="../../favicon.ico"> -->
 
     <title>InterSaf</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&amp;subset=cyrillic-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/agency.css" rel="stylesheet">
@@ -35,7 +35,7 @@
                 <ul class="panel-phones list-inline">
                   <li><i class="material-icons md-18">phone_iphone</i> +7 708 527 77 89</li>
                   <li><i class="material-icons md-18">phone_iphone</i> +7 700 888 99 00</li>
-                  <li><i class="material-icons md-18">mail</i> info@intersaf.kz</li>
+                  <li class="hidden-xs"><i class="material-icons md-18">mail</i> info@intersaf.kz</li>
                   <!-- <li><div class="delimiter"></div></li> -->
                   <!-- <li><a href="#"><b>KZ</b></a></li> -->
                   <!-- <li><a href="#"><b>RU</b></a></li> -->
@@ -48,23 +48,23 @@
 
         <div class="container">
           <div class="menu">
-            <div class="col-md-4">
+            <div class="col-md-5">
               <img src="img/logo-1.png" class="logo img-resonsive">
               <p class="logo-word">Бюро переводов</p>
             </div>
-            <div class="col-md-8">
-              <ul class="menu-list list-inline">
+            <div class="col-md-7">
+              <ul class="list-inline menu-list">
                 <li><a class="scrollto" href="#about">О InterSaf</a></li>
                 <li><a class="scrollto" href="#services">Услуги</a></li>
                 <li><a class="scrollto" href="#price">Цены</a></li>
                 <li><a href="#">Вакансии</a></li>
                 <li><a class="scrollto" href="#contacts">Контакты</a></li>
-                <li><div class="delimiter"></div></li>
-                <li><img src="img/png/google-plus.png"></li>
-                <li><img src="img/png/twitter.png"></li>
-                <li><img src="img/png/facebook.png"></li>
-                <li><img src="img/png/instagram.png"></li>
-                <li><img src="img/png/vk-1.png"></li>
+                <li class="start-soc-icons"><div class="delimiter"></div></li>
+                <li class="hidden-xs"><img src="img/png/google-plus.png"></li>
+                <li class="hidden-xs"><img src="img/png/twitter.png"></li>
+                <li class="hidden-xs"><img src="img/png/facebook.png"></li>
+                <li class="hidden-xs"><img src="img/png/instagram.png"></li>
+                <li class="hidden-xs"><img src="img/png/vk-1.png"></li>
               </ul>
             </div>
           </div>
@@ -416,9 +416,9 @@
 
     <div class="container how-we-work">
       <p class="h1">Как мы работаем?</p><br><br><br>
-      <div class="col-md-offset-2 col-md-8">
+      <div class="col-md-offset-2 col-md-8 col-xs-12">
         <div class="row">
-          <div class="col-md-offset-6 col-md-6 line-left step-send">
+          <div class="col-md-offset-6 col-md-6 col-xs-offset-6 col-xs-6 line-left step-send">
             <i class="material-icons color-brand">send</i>
             <div class="step-text">
               <div class="h3">1. Отправьте файл</div> в любом формате через почту, ватсап, телеграм, через соц сети и облако.
@@ -426,7 +426,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-6 line-right step-assessment">
+          <div class="col-md-6 col-xs-6 line-right step-assessment">
             <i class="material-icons color-brand">timelapse</i>
             <div class="step-text">
               <div class="h3">2. Оценка заказа</div> в течение 9 минут
@@ -434,7 +434,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-offset-6 col-md-6 line-left step-agreement">
+          <div class="col-md-offset-6 col-md-6 col-xs-offset-6 col-xs-6 line-left step-agreement">
             <i class="material-icons color-brand">assignment</i>
             <div class="step-text">
               <div class="h3">3. Заключение договора</div>
@@ -442,7 +442,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-6 line-right step-process">
+          <div class="col-md-6 col-xs-6 line-right step-process">
             <i class="material-icons color-brand">sync</i>
             <div class="step-text">
               <div class="h3">4. Переводческие процесс</div>
@@ -450,7 +450,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-offset-6 col-md-6 line-left step-receipt">
+          <div class="col-md-offset-6 col-md-6 col-xs-offset-6 col-xs-6 line-left step-receipt">
             <i class="material-icons color-brand">thumb_up</i>
             <div class="step-text">
               <div class="h3">5. Получение выполненного заказа</div> удобным для Вас способом (на почту, в офисе, через курьера).
